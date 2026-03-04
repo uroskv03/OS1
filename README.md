@@ -1,11 +1,11 @@
 # Kernel- Operating system
 
-# Overview
+## Overview
 
 This project implements a multithreaded, time-sharing operating system kernel targeting the RISC-V (RV64IMA) architecture.
 The kernel is written in C/C++ and Assembly, focusing on thread management (including a scheduler), memory management, synchronization and system call mechanisms.
 
-# Memory Management
+## Memory Management
 
 Developed a dynamic memory allocator.
 Controlled allocation and deallocation of memory blocks.
@@ -13,7 +13,7 @@ Controlled allocation and deallocation of memory blocks.
 System calls: mem_alloc(), mem_free()
 
 
-# Threads
+## Threads
 
 Implemented a thread scheduler and context switching mechanism. 
 
@@ -21,20 +21,20 @@ Managed per-thread stack allocation and stack initialization with context save/r
 
 System calls: thread_create(), thread_exit(), thread_dispatch()
 
-# Semaphores
+## Semaphores
 
 Implemented semaphores for synchronization, including blocking and wake-up mechanisms for safe coordination between concurrent threads.
 
 System calls: sem_open(), sem_close(), sem_wait(), sem_trywait(), sem_signal()
 
-# Interrupt Handling
+## Interrupt Handling
 
 Implemented a trap/interrupt routine for handling system calls and exceptions.
 
 Enabled transition from user mode to privileged mode.
 
 	
-# System Interfaces
+## System Interfaces
 
 ABI (Application Binary Interface)
 
@@ -42,7 +42,7 @@ C API
 
 C++ API
 
-# Technologies
+## Technologies
 
 C/C++
 

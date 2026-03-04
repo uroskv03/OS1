@@ -9,22 +9,32 @@ The kernel is written in C/C++ and Assembly, focusing on thread management (incl
 
 Developed a dynamic memory allocator.
 Controlled allocation and deallocation of memory blocks.
-Exposed through the system calls: mem_alloc and mem_free.
+System calls: 
+-mem_alloc 
+-mem_free.
 
 
 # Threads
 
-Implemented a thread scheduler and contex switching mechanism. 
+Implemented a thread scheduler and context switching mechanism. 
 
 Managed per-thread stack allocation and stack initialization with context save/restore for registers during thread switch.
 
-Provided the system calls: thread_create, thread_exit and thread_dispatch.
+System calls: 
+-thread_create
+-thread_exit 
+-thread_dispatch.
 
 # Semaphores
 
-Implemented semaphores for synchronization with blocking and wake-up mechanisms with safe coordination between concurrent threads.
+Implemented semaphores for synchronization, including blocking and wake-up mechanisms for safe coordination between concurrent threads.
 
-System calls: sem_open, sem_close, sem_wait, sem_trywait and sem_signal.
+System calls: 
+-sem_open
+-sem_close
+-sem_wait
+-sem_trywait
+-sem_signal.
 
 
 	

@@ -9,7 +9,8 @@ The kernel provides core process and memory management mechanisms, along with sy
 
 # Technologies
 
-C
-C++
+C/C++
+
 RISC-V Assembly
+
 RV64IMA architecture

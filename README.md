@@ -36,16 +36,16 @@ Enabled transition from user mode to privileged mode.
 	
 ## System Interfaces
 
-ABI (Application Binary Interface)
+* 	ABI (Application Binary Interface)
 
-C API
+* 	C API
 
-C++ API
+* 	C++ API
 
 ## Technologies
 
-C/C++
+* 	C/C++
 
-RISC-V Assembly
+* 	RISC-V Assembly
 
-RV64IMA architecture
+*	RV64IMA architecture
